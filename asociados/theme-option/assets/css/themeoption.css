@@ -1,0 +1,365 @@
+﻿/* =================================================================== */
+/* Styles Switcher
+====================================================================== */
+
+#style-switcher ul{
+	margin:0;
+	padding:0;
+}
+#style-switcher {
+        background-color: #fff;
+    border-radius: 0;
+    left: -270px;
+    padding: 15px 0 25px;
+    position: fixed;
+    top: 156px;
+    width: 270px;
+    z-index: 99999999;
+    border: 1px solid #ccc;
+}
+#style-switcher .style-switcher-wrap {
+	height: 461px;
+    margin: 0;
+    overflow-y: scroll;
+    padding: 15px;
+    position: relative;
+}
+#style-switcher h3 {
+    color: #202020;
+    font-family: helvetica;
+    font-size: 14px;
+    letter-spacing: unset;
+    margin: 0 0 0;
+    text-align: left;
+    text-transform: capitalize;
+}
+#style-switcher h2 {
+    color: #333;
+    font-family: helvetica;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: unset;
+    margin: 0 0 5px;
+    padding-left: 25px;
+    padding-top: 0;
+    text-transform: capitalize;
+}
+#style-switcher .switcher-toggle {
+	display: block;
+	height: 58px;
+	position: absolute;
+	right: -3px;
+	top: 50px;
+	width: 40px;
+	border-radius: 0 3px 3px 0;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+#style-switcher .icon-switcher {
+	border-radius: 0 6px 6px 0;
+	color: #fff;
+	font-size: 14px;
+	margin-left: 37px;
+	margin-top: 90px;
+	padding: 10px 12px;
+	position: absolute;
+	background:#19b5fe;
+}
+#style-switcher .icon-switcher i {
+    color: #fff;
+    font-size: 20px;
+}
+.switcher-style-list {
+	list-style: none;
+	margin: 0px;
+	overflow: hidden;
+}
+.switcher-style-list li {
+	float: left;
+	margin: 2px;
+}
+.switcher-style-list li a {
+	display: block;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	background-size: cover;
+}
+#switcher-theme-custom-color.switcher-style-list li a {
+	width: 32px;
+	height: 32px;
+}
+#style-switcher .layout select {
+	width: 100%;
+	padding: 5px;
+	border: none;
+	margin: 0 0 0 -5px;
+	color: #666;
+	cursor: pointer;
+}
+#style-switcher #button-reset {
+	margin: 0 15px 15px 2px;
+	text-align: right;
+}
+#style-switcher  #button-reset a {
+	color: #fff;
+	font-size: 14px;
+	padding: 8px 27px;
+	display: inline-block;
+	border: 0px;
+	font-family: Arial, sans-serif;
+	cursor: pointer;
+	margin-top: 15px;
+	text-align: center;
+	background:#333;
+}
+ 
+/*-----------------------------------*/
+/*------------ theme-skin---------*/
+/*-----------------------------------*/
+
+#style-switcher .theme-skin-green {
+	background: #19b5fe;
+}
+#style-switcher .theme-skin-blue {
+	background: #f39c12;
+}
+#style-switcher .theme-skin-sky-blue {
+	background: #3498db;
+}
+#style-switcher .theme-skin-sky-blue-light {
+	background: #c0392b;
+}
+#style-switcher .theme-skin-red {
+	background: #9b59b6;
+}
+#style-switcher .theme-skin-blue-gary {
+	background: #546E7A;
+}
+#style-switcher .theme-skin-brown {
+	background: #c81dbe;
+}
+#style-switcher .theme-skin-gray {
+	background: #cf1a07;
+}
+#style-switcher .theme-skin-lemon {
+	background: #479c18;
+}
+#style-switcher .theme-skin-orange {
+	background: #34495e;
+}
+#style-switcher .theme-skin-yellow {
+	background: #2ecc71;
+}
+#style-switcher .theme-skin-rose {
+	background: #d35400;
+}
+
+#style-switcher .theme-skin-red {
+	background: #cf1a07;
+}
+#style-switcher .theme-skin-steelblue {
+	background: #0a6d9b;
+}
+#style-switcher .theme-skin-sunflower {
+	background: #001E52;
+}
+#style-switcher .theme-skin-yellow {
+	background: #efd70c;
+}
+#style-switcher .theme-skin-yellowgreen {
+	background: #2ecc71;
+}
+#style-switcher .theme-skin-pink {
+	background: #f8127f;
+}
+#style-switcher .theme-skin-emerland {
+	background: #2ecc71;
+}
+#style-switcher .switcher-style-list li a.active {
+	box-shadow: 0 0 0 0px #555 inset
+}
+
+@media only screen and (max-width:1029px) {
+#style-switcher {
+}
+}
+#style-switcher .clean-check #r1 + label, #style-switcher .clean-check #r2 + label, #style-switcher .clean-check #r3 + label {
+	margin-left: 22px;
+}
+#style-switcher .clean-check #s1 + label, #style-switcher .clean-check #sd_right + label {
+	margin-left: 22px;
+}
+#style-switcher .layouts {
+	padding-bottom: 0px;
+}
+#style-switcher .switcher-title{
+	    padding-top: 26px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #635F5F;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+/*-----------------------------------*/
+/*------------ pattern---------*/
+/*-----------------------------------*/
+.pattern-1{
+	background-image: url("../images/pattern/pattern-1.png");
+}
+.pattern-2{
+	background-image: url("../images/pattern/pattern-2.png");
+}
+.Pattern-3{
+	background-image: url("../images/pattern/pattern-3.png");
+}
+.pattern-4{
+	background-image: url("../images/pattern/pattern-4.png");
+}
+.pattern-5{
+	background-image: url("../images/pattern/pattern-5.png");
+}
+.pattern-6{
+	background-image: url("../images/pattern/pattern-6.png");
+}
+.pattern-7{
+	background-image: url("../images/pattern/pattern-7.png");
+}
+.pattern-8{
+	background-image: url("../images/pattern/pattern-8.png");
+}
+.pattern-9{
+	background-image: url("../images/pattern/pattern-9.png");
+}
+/*-----------------------------------*/
+/*------------ theme-skin---------*/
+/*-----------------------------------*/
+
+#style-switcher .menu-skin-default {
+  background: #333;
+}
+#style-switcher .menu-skin-blue {
+  background: #5D9CEC;
+}
+#style-switcher .menu-skin-green {
+  background: #48CFAD;
+}
+#style-switcher .menu-skin-red {
+  background: #FC6E51;
+}
+#style-switcher .menu-skin-orange {
+  background: #ff853f;
+}
+#style-switcher .menu-skin-yellow {
+  background: #FFCE54;
+}
+#style-switcher .menu-skin-purple {
+  background: #AC92EC;
+}
+#style-switcher .menu-skin-pink {
+  background: #EC87C0;
+}
+
+
+/*-----------------------------------*/
+/*-------- switcher-menu-style ------*/
+/*-----------------------------------*/
+.switcher-select-form {
+	width: 89%;
+    height: 25px;	
+}
+
+/*-----------------------------------*/
+/*-------------- menu-position ------*/
+/*-----------------------------------*/
+
+#style-switcher .menu-position li {
+  float: left;
+  margin: 0 0 0 20px;
+  width: 40%;
+}
+#style-switcher .menu-position li a {
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  padding: 2px;
+  margin: 5px;
+}
+#style-switcher .menu-position li a.active {
+  border: 1px solid #333;
+}
+
+
+
+/*-----------------------------------*/
+/*-------------- container-height ------*/
+/*-----------------------------------*/
+
+#style-switcher .container-height li {
+  float: left;
+  margin: 0 0 0 20px;
+  width: 40%;
+}
+#style-switcher .container-height li a {
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  padding: 2px;
+  margin: 5px;
+}
+#style-switcher .container-height li a.active {
+  border: 1px solid #F7F7F7;
+}
+#style-switcher .style-switcher-wrap .btnTheme {
+  font-size: 11px;
+  font-weight: 700;
+      display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+	    padding: 6px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 0;
+	    min-width: 95px;
+	  
+}
+#style-switcher .style-switcher-wrap .activeTheme{
+    border-color: #2e6da4;
+}
+.wrapper{
+	
+}
+
+html[dir="rtl"] #style-switcher{
+	right:0;
+	left:auto !important;
+}
+
+html[dir="rtl"] #style-switcher{right:-272px;}
+html[dir="rtl"] #style-switcher h3{text-align:right;}
+html[dir="rtl"] #style-switcher h2{padding-right:25px;}
+html[dir="rtl"] #style-switcher .switcher-toggle{right:84%;border-radius:3px 0 0 3px;padding-left:5px;}
+html[dir="rtl"] #style-switcher .icon-switcher{border-radius:6px 0 0 6px;margin-right:37px;}
+html[dir="rtl"] #style-switcher .switcher-style-list li{float:right;}
+html[dir="rtl"] #style-switcher  .layout select{margin:0 -5px 0 0;}
+html[dir="rtl"] #button-reset{margin:0 2px 15px 15px;text-align:left;}
+html[dir="rtl"] #style-switcher .clean-check #r1 + label, .clean-check #r2 + label, .clean-check #r3 + label{margin-right:22px;}
+html[dir="rtl"] #style-switcher .clean-check #s1 + label, .clean-check #sd_right + label{margin-right:22px;}
+html[dir="rtl"] #style-switcher .menu-position li{float:right;margin:0 20px 0 0;}
+html[dir="rtl"] #style-switcher .container-height li{float:right;margin:0 20px 0 0;}

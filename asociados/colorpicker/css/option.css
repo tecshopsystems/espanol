@@ -1,0 +1,256 @@
+
+/* ============== options panel for live preview ======================= */		
+			
+#t_options {
+	position:fixed;
+	top: 50px;
+	left:-230px;
+	width: 230px;
+	height:80%;
+	background: #fff;
+	box-shadow: 0 0 3px rgba(0,0,0,0.12);
+	-moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    -khtml-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+	box-shadow: 0 1px 6px rgba(0,0,0,.2); 
+	-webkit-box-shadow: 0 1px 6px rgba(0,0,0,.2); 
+	-moz-box-shadow: 0 1px 6px rgba(0,0,0,.2); 
+	-o-box-shadow: 0 1px 6px rgba(0,0,0,.2); 
+    z-index: 5000;
+    font-size: 11px;
+    font-family: 'Open Sans', arial, sans-serif;
+}
+#t_options textarea{
+	height:100px;
+}
+#t_options input{
+	width:70px;
+}
+
+#t_options .col {
+	width:50px;
+	margin:0 10px 0;
+}
+
+.colorpicker {
+    z-index: 5001;	
+}
+.options_inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.options_box {
+	margin: 0 14px;
+	padding: 10px 0 20px;
+	overflow:hidden;
+	    overflow-y: scroll;
+    height:100%;
+}
+
+.options_box .solidline {
+	margin-bottom:10px;
+}
+
+.options_box h6 {
+	text-align:center;
+	font-weight:bold;
+	margin-bottom: 12px;
+}
+
+.options_box .full {
+	width:100%;
+	overflow:hidden;
+	padding-bottom:10px;
+}
+.options_box .halfcol {
+	width:90px;
+	float:left;
+	margin:0 5px;
+}
+
+.options_box .fourcol {
+	width:30px;
+	float:left;
+	margin:0 5px;
+}
+
+.options_box .fourcol.color a{
+	width:30px;
+	height:30px;
+	display:block;
+	margin-bottom:5px;
+}
+
+.options_box .halfcol .wideboxed h6 {
+	font-size:11px;
+	font-weight:600;
+}
+
+.options_toggle_holder {
+	position:absolute;
+	right:-40px;
+}
+
+.options_toggle  {
+	margin: 6px 0 0 4px;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	border:1px solid #ddd;
+	border-left:none;
+	display:block;
+		background:#fff;
+	-moz-border-radius: 0 6px 6px 0;
+    -webkit-border-radius: 0 6px 6px 0;
+    -khtml-border-radius: 0 6px 6px 0;
+    border-radius: 0 6px 6px 0;	
+	
+}
+.options_toggle span{
+	margin-top: 7px;
+ 	display: block;
+ 	margin-left: 5px;
+}
+
+.options_toggle span .icon {
+	margin:10px 0 0 7px;
+	display:block;
+}
+
+.options_toggle:hover,.options_toggle:focus,.options_toggle:active{
+	outline:0;
+	text-decoration:none;
+}
+
+.options_heading {
+	color: #513847;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	font-size: 14px;
+	text-transform: uppercase;	
+	font-weight: bold; 
+	letter-spacing: 2px;
+	padding-bottom: 6px;
+	border-bottom: 1px dotted #eee;	
+}
+
+/* Theme */
+
+.options_box a.t_default {
+	background:#00c2a9;
+}
+.options_box a.t_sunflower {
+	background:#001E52;
+}
+.options_box a.t_emerland {
+	background:#2ecc71;
+}
+.options_box a.t_peterriver {
+	background:#3498db;
+}
+.options_box a.t_amethyst {
+	background:#9b59b6;
+}
+.options_box a.t_asphalt {
+	background:#34495e;
+}
+.options_box a.t_pomegranate {
+	background:#c0392b;
+}
+.options_box a.t_pumpkin {
+	background:#d35400;
+}
+.options_box a.t_lightorange {
+	background:#f39c12;
+}
+.options_box a.t_red {
+	background:#cf1a07;
+}
+
+.options_box a.t_green {
+	background:#479c18;
+}
+.options_box a.t_purple {
+	background:#c81dbe;
+}
+.options_box a.t_yellow {
+	background:#efd70c;
+}
+.options_box a.t_blue {
+	background:#0a6d9b;
+}
+.options_box a.t_pink {
+	background:#f8127f;
+}
+
+.bgr .bg {
+	width:28px;
+	height:28px;
+	border:1px solid #e6e6e6;
+}
+
+.bgr .bg.bg1 {
+	background: url(../img/bodybg/bg1.jpg) repeat left top;
+}	
+.bgr .bg.bg2 {
+	background: url(../img/bodybg/bg2.png) repeat left top;
+}	
+.bgr .bg.bg3 {
+	background: url(../img/bodybg/bg3.jpg) repeat left top;
+}	
+.bgr .bg.bg4 {
+	background: url(../img/bodybg/bg4.png) repeat left top;
+}	
+.bgr .bg.bg5 {
+	background: url(../img/bodybg/bg5.png) repeat left top;
+}	
+.bgr .bg.bg6 {
+	background: url(../img/bodybg/bg6.png) repeat left top;
+}	
+.bgr .bg.bg7 {
+	background: url(../img/bodybg/bg7.png) repeat left top;
+}	
+.bgr .bg.bg8 {
+	background: url(../img/bodybg/bg8.png) repeat left top;
+}	
+.bgr .bg.bg9 {
+	background: url(../img/bodybg/bg9.png) repeat left top;
+}	
+.bgr .bg.bg10 {
+	background: url(../img/bodybg/bg10.png) repeat left top;
+}	
+
+#accent_color{
+	color: #fff;
+	background: #f39c12;
+	border: none;
+	margin-left: 2px;
+	text-align: center;
+	outline:0;
+}
+
+#bodybg_color {
+	color: #fff;
+	background: #ccc;
+	border: none;
+	text-transform: uppercase;
+	margin-left: 2px;
+	text-align: center;
+	outline:0;
+}
+.pg{
+	display:inline-block;
+	color:#000;
+	padding: 8px 5px;
+	margin:4px;
+	border:1px solid #ddd; 
+	font-size:12px;
+}
+#global-zeroclipboard-html-bridge:hover{
+	opacity:0.8;
+	cursor:pointer;
+}
+
+/* Theme Styler :: End */

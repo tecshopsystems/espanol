@@ -1,0 +1,95 @@
+/**{
+	margin: 0;	
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: italic;
+}*/
+#container1{
+	/*position: absolute;*/
+	width: 60%;
+	height: 65%;
+	top: 10%;
+	left: 2%;
+	border-bottom: solid 2px #696969;
+}
+body{
+	/*background-color: #F4F4F4;*/
+}
+
+.textbox{
+	border-radius: 4%;
+	border-style: none;
+	border: solid 2px #D3D3D3;
+	/*background-color: transparent;*/
+	height: 60%;
+}
+.cont{
+	display: inline-block;
+	/*background-color: tomato;*/
+	width: 25%;
+	height: 13%;
+}
+.requerido{
+	color: #FF0000;
+}
+.nombre{
+	font-size: .8em;
+}
+.combobox{
+	border-radius: 4%;
+	border-style: none;
+	border: solid 2px #D3D3D3;
+	width: 80%;
+	height: 60%;
+}
+#div_check{
+	height: 60%;
+	width: 50%;
+}
+#container2{
+	/*position: static;*/
+	width: 60%;
+	height: 30%;
+	top: 78%;
+	left: 2%;
+	border-bottom: solid 2px #696969;
+}
+#container3{
+	/*position: absolute;*/
+	width: 60%;
+	height: 40%;
+	top: 112%;
+	left: 2%;
+}
+#container4{
+	/*position: absolute;*/
+	width: 60%;
+	height: 40%;
+	top: 152%;
+	left: 2%;
+}
+#container2 .textbox{
+	height: 123%;
+}
+#container2 .cont{
+	margin-top: 2%;
+}
+#container3 .textbox{
+	height: 100%;
+}
+#container3 .cont{
+	margin-top: 2%;
+}
+.pregunta{
+	display: inline-block;
+	width: 50%;	
+}
+#combocontact{
+	width: 20%;
+	height: 10%;
+}
+.button{
+	background-color: transparent;
+	border-style: none;
+	border: solid 2px #D3D3D3;
+	border-radius: 4%;
+}
