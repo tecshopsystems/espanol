@@ -13,14 +13,15 @@
       // If result matched $myusername and $mypassword, table row must be 1 row
 	 	
       if($count == 1) {
-         if($inactive == 0) {
-         session_register("myusername");
-         $_SESSION['login_user'] = $myusername;
          
+        // session_register("myusername");
+        
+          $_SESSION['clave'] = $row['clave'];
+         $_SESSION['login_user'] = $myusername;
          header("location: index.html");
-         }else
-          $error = "Tú usuario está dado de baja";
+       
       }else {
+           header("location: ../login.html");
          $error = "Tú usuario es invalido";
       }
    }

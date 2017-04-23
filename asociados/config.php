@@ -1,5 +1,4 @@
 <?php
-    <?php
    define('DB_SERVER', 'localhost');
    define('DB_USERNAME', 'tecshops_selectt');
    define('DB_PASSWORD', 'Anabantha666');
